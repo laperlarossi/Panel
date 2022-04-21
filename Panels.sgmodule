@@ -27,7 +27,7 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 
 #網路詳情 标题显示为根节点名
 #应当修改的字段 group 代理策略组名称
-NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Singapor
+NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Proxy
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
@@ -35,4 +35,4 @@ Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 
 #策略组面板 可重复配置 注意修改相应字段
 #必须更改的字段：group 填写需要显示的策略组名称
-groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/groupPanel.js ,argument=icon=network&color=#86abee&group=Singapor
+groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/groupPanel.js ,argument=icon=network&color=#86abee&group=Proxy
