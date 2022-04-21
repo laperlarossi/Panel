@@ -1,8 +1,6 @@
 # YouTube策略組控制器
 
-使用者反馈：Telegram  https://t.me/okmytg
 
-脚本修改自： @Helge_0x00
 
 效果展示：
 
@@ -10,7 +8,7 @@
 
 ⭐使用规范
 
-https://raw.githubusercontent.com/fishingworld/something/main/YouTubeSelect/YouTubeController.sgmodule
+https://raw.githubusercontent.com/laperlarossi/Panel/main/YouTubeSelect/YouTubeController.sgmodule
 
 1:本脚本实用至上 以效率为优先 你可以更快速的控制你的策略组
 
