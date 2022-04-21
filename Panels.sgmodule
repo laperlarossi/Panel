@@ -20,6 +20,6 @@ stream-all = script-name=stream-all, title="流媒体解锁检测", content="请
 # nf检测
 #nf_check = type=generic, script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/NetflixSelect/nf_check.js, argument=title=Netflix 解锁检测
 # 奈飞、油管解锁检测
-#stream-check = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream_check.js
+#stream-check = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/sream-check.js
 # 流媒体解锁检测
 stream-all = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/sream-all.js
