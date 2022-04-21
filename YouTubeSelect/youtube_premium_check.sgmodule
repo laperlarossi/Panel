@@ -6,4 +6,4 @@
 youtube_premium_check = script-name=youtube_premium_check, title="YouTube Premium 解锁检测", update-interval=1
 
 [Script]
-youtube_premium_check = type=generic, script-path=https://gist.githubusercontent.com/Hyseen/5ae36a6a5cb5690b1f2bff4aa19c766f/raw/youtube_premium_check.js?version=1633090827446, argument=title=YouTube 解锁检测
+youtube_premium_check = type=generic, script-path= https://raw.githubusercontent.com/laperlarossi/Panel/main/YouTubeSelect/youtube_premium_check.js, argument=title=YouTube 解锁检测
