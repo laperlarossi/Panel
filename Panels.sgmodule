@@ -2,9 +2,6 @@
 #!desc=信息面板
 
 [Panel]
-#Surge Pro标题,可显示启动时间,点击刷新为重载配置
-SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
-
 #流量统计
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
