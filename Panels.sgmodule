@@ -14,12 +14,6 @@ NET_info = script-name=NET_info,update-interval=1
 #机场信息
 Sub_info = script-name=Sub_info,update-interval = 43200
 
-#Disney+策略组自动控制
-DisneySelect = script-name=DisneySelecter, update-interval=3600
-
-#Netflix策略组自动控制
-NetflixSelect = script-name=NetflixSelect, update-interval=3600
-
 #策略组面板 可重复配置 注意修改相应字段
 groupPanel= script-name=groupPanel,update-interval=5
 
