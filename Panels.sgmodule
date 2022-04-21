@@ -1,6 +1,12 @@
 #!name=Panels
 #!desc=一个Rossi自用的信息面板模块
 [Panel]
+#网络详情
+NET_info = script-name=NET_info,update-interval=1
+
+#策略组面板 可重复配置 注意修改相应字段
+groupPanel= script-name=groupPanel,update-interval=5
+
 # D+检测
 #disney_check = script-name=disney_check,title=Disney+ 解锁检测,style=alert,content=请刷新面板,update-interval=21600
 # nf检测
@@ -11,6 +17,14 @@
 stream-all = script-name=stream-all, title="流媒体解锁检测", content="请刷新面板", update-interval=-1
 
 [Script]
+#網路詳情 标题显示为根节点名
+#应当修改的字段 group 代理策略组名称
+NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Proxy
+
+#策略组面板 可重复配置 注意修改相应字段
+#必须更改的字段：group 填写需要显示的策略组名称
+groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=network&color=#86abee&group=Proxy
+
 # D+解锁检测
 #disney_check = type=generic,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/DisneySelect/dianey_check.js
 # nf检测
