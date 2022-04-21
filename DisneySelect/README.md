@@ -1,8 +1,6 @@
 # Disney+策略組控制器
 
-使用者反馈：Telegram  https://t.me/okmytg
 
-脚本修改自： @Helge_0x00
 
 效果展示：
 
@@ -12,7 +10,7 @@
 
 ⭐优化版（使用新版请删除旧版本）
 
-https://raw.githubusercontent.com/fishingworld/something/main/DisneySelect/DisneyPlusController.sgmodule
+https://raw.githubusercontent.com/laperlarossi/Panel/main/DisneySelect/DisneyPlusController.sgmodule
 
 1:优化版实用至上 大幅提高了使用效率 你可以更快速的控制你的策略组
 
