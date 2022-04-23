@@ -5,7 +5,7 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 ----------------------------------------
 
 [Script]
-Sub_info = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/laperlarossi/Panel/main/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=AmyInfo&icon=bonjour&color=#007aff
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=AmyInfo&icon=bonjour&color=#007aff
 
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=600
@@ -137,4 +137,12 @@ function bytesToSize(bytes) {
   sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+}
+
+function formatTime(time) {
+  let dateObj = new Date(time);
+  let year = dateObj.getFullYear();
+  let month = dateObj.getMonth() + 1;
+  let day = dateObj.getDate();
+  return year + "年" + month + "月" + day + "日";
 }
