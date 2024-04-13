@@ -1,7 +1,9 @@
+#!name=实时油价模块
+#!desc=显示本省实时油价
 [Panel]
 YJ = script-name=YJ,update-interval=43200
 [Script]
-YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/youjia.js,argument=shanghai
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/youjia.js,argument=Shanghai/Shanghai
 */
 
 var region = 'shanxi-3/xian'
