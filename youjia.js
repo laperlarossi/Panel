@@ -3,7 +3,7 @@
 [Panel]
 YJ = script-name=YJ,update-interval=43200
 [Script]
-YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/youjia.js,argument=Shanghai/Shanghai
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/laperlarossi/Panel/main/youjia.js,argument=shanghai/shanghai
 */
 
 var region = 'shanxi-3/xian'
