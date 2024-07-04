@@ -1,3 +1,4 @@
+#!name=sub_info
 [Panel]
 {{{NAME_1}}}=script-name={{{NAME_1}}},update-interval=3600
 
