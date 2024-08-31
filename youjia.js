@@ -1,5 +1,5 @@
 // 指定查询地区，可通过argument或persistentStore设置，后者优先级高
-var region = 'hainan';
+var region = 'shanghai';
 if (typeof $argument !== 'undefined' && $argument !== '') {
     region = $argument;
 }
