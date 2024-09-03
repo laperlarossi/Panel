@@ -1,4 +1,4 @@
-var region = 'shanxi-3/xian'
+var region = 'shanghai'
 
 if (typeof $argument !== 'undefined' && $argument !== '') {
     region = $argument
