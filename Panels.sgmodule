@@ -1,5 +1,6 @@
 #!name=Panels
 #!desc=一个Rossi自用的信息面板模块
+#!category=Tools
 [Panel]
 #网络详情
 #NET_info = script-name=NET_info,update-interval=1
