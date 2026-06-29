@@ -1,6 +1,7 @@
 #!name=Network Info Panel
 #!desc=網路詳情面板 @Nebulosa-Cat
 #!system=ios
+#!category=Tools
 
 [Panel]
 NetInfoPanel=title="",content="",style=info,script-name=net-info-panel.js,update-interval=1
